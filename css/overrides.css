@@ -1,0 +1,16 @@
+img,
+.markdown img,
+figure img {
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+body {
+    font-family: 'Amatic SC', cursive !important;
+    font-size: 2rem !important;
+    letter-spacing: 1px;
+}
+.footer-text {
+    font-size: 0.8rem !important; /* kleiner als der Rest */
+    opacity: 0.8; /* optional: etwas dezenter */
+}

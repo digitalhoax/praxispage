@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Amatic SC';
+    src: url('/fonts/AmaticSC-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Amatic SC';
+    src: url('/fonts/AmaticSC-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+h1, h2, .use-amatic {
+    font-family: 'Amatic SC', regular !important;
+    font-size: 3rem !important;
+    letter-spacing: 1px;
+}
+
+body {
+    font-family: 'Amatic SC', cursive !important;
+    font-size: 2rem !important;
+    letter-spacing: 1px;
+}
+.footer-text {
+    font-size: 0.8rem !important; /* kleiner als der Rest */
+    opacity: 0.8; /* optional: etwas dezenter */
+}
+code {
+    font-family: 'Amatic SC', cursive !important;
+    font-size: 6rem;       /* gewünschte Größe */
+    font-weight: 700;
+    background: none;        /* entfernt grauen Code-Hintergrund */
+    padding: 0;              /* entfernt Padding, falls vom Theme */
+    border-radius: 0;        /* keine Rundungen */
+    color: #000000; 
+}
