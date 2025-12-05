@@ -25,12 +25,27 @@ body {
     font-size: 0.8rem !important; /* kleiner als der Rest */
     opacity: 0.8; /* optional: etwas dezenter */
 }
+/* Standard: Desktop */
 code {
     font-family: 'Amatic SC', cursive !important;
-    font-size: 6rem;       /* gewünschte Größe */
+    font-size: 6rem;       /* Desktop-Größe */
     font-weight: 700;
-    background: none;        /* entfernt grauen Code-Hintergrund */
-    padding: 0;              /* entfernt Padding, falls vom Theme */
-    border-radius: 0;        /* keine Rundungen */
+    background: none;      /* entfernt grauen Code-Hintergrund */
+    padding: 0;            /* entfernt Padding, falls vom Theme */
+    border-radius: 0;      /* keine Rundungen */
     color: #000000; 
+}
+
+/* Tablet / kleine Laptops */
+@media (max-width: 1024px) {
+    code {
+        font-size: 4rem;
+    }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+    code {
+        font-size: 2.5rem;
+    }
 }
